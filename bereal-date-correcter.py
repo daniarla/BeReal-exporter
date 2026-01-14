@@ -11,8 +11,8 @@ from typing import Optional
 # Folder name format: YYYY-MM-DD-HH-MM-SS
 FOLDER_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})$")
 
-# Only copy these image names (case-insensitive match)
-TARGET_FILES = {"merged.jpg", "primary.jpg", "secondary.jpg"}
+# Only copy these files names (case-insensitive match)
+TARGET_FILES = {"merged.jpg", "primary.jpg", "secondary.jpg","video.mp4"}
 
 
 def parse_folder_datetime(folder_name: str, use_utc: bool = False) -> datetime:

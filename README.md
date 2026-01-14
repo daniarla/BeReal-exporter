@@ -17,17 +17,19 @@ bereal-memories-all/
 ├── 2022-11-07-15-09-47/
 │   ├── merged.jpg
 │   ├── primary.jpg
-│   └── secondary.jpg
+│   ├── secondary.jpg
+│   └── video.mp4
 ├── 2022-11-08-09-31-12/
 │   ├── merged.jpg
 │   ├── primary.jpg
-│   └── secondary.jpg
+│   ├── secondary.jpg
+│   └── video.mp4
 ```
 
 The script will:
 
 1. Copy all images into **one output folder**
-2. Rename each image to include the folder timestamp  
+2. Rename each image/video to include the folder timestamp  
    Example:
 
 ```
@@ -64,6 +66,7 @@ Only the following files are copied (case-insensitive):
 - `merged.jpg`
 - `primary.jpg`
 - `secondary.jpg`
+- `video.mp4`
 
 All other files are ignored.
 
@@ -114,6 +117,7 @@ Required for correct sorting in:
 
 - Windows Photos
 - Google Photos
+- Nextcloud Memories
 - Lightroom
 - macOS Photos
 
